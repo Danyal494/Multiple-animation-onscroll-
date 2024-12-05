@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+canvas{
+  background: black;
+}
+
+.info{
+  position: absolute; 
+  z-index: 10;
+
+
+  left: 10px;
+  top: 10px;
+}
+
+::-webkit-scrollbar{
+ width: 6px;
+
+}
+::-webkit-scrollbar-track{
+  background: rgba(255, 255, 255, 0.111);
+}
+
+::-webkit-scrollbar-thumb{
+background: #000;
+}
